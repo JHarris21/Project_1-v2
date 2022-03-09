@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage_Project1</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+
+<nav class="navbar">
+<ul>
+    <li><a href="#home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section id="home">
+    <div class="img__wrap">
+    <h1>יוֹסֵף</h1>
+    </div>
+</section>
+
+<section id="About">
+    <h1>Joseph</h1>
+    <p>Joseph is derived from the Latin form of Greek Ioseph, from the Hebrew name Yosef meaning "He will add", from the root Yasaf. <br> the Old Testament Bible, Joseph was the 11th son of Jacob, the traditional ancestor of the people of Israel.<br> Joseph was an esteemed advisor to the pharaoh from 1894-1878 BCE</p>
+</section>
+
+<section id="service">
+    <h1>Service</h1>
+    <p>Ancient Dreamz Productions &copy;</em> is inspired his fascination with biblical and mythological narratives that tell story of spiritual architypes that connect present times with past.<br>As a new media artist Joseph's mission is to bring these architypes to life using a mix of new media technology and futuristic desgin elements that will allow the viewer to be immersed in unkown realms.</p>
+</section>
+
+<section id="contact">
+   <div id="overlay">
+    <form onsubmit="event.preventDefault();validateForm()">  
+        <h1>Contact</h1>
+
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Your Name">
+    <small class="error"></small>
+
+    <label for="name">Email</label>
+    <input type="text" id="name" placeholder="Your Email">
+    <small class="error"></small>
+
+    <label for="Message">Message</label>
+    <textarea id="Message" id="name" placeholder="Your Message" rows="6"></textarea>
+    <small class="error"></small>
+
+ <div class="center">
+    <input type="submit" value="Send Message">
+
+    <p id="success"></p>
+ </div>
+    
+    </form>
+</div>
+
+
+   
+</section>
+</div>
+
+</body>
+</html>
